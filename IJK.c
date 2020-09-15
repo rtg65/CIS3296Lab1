@@ -2,6 +2,7 @@
 #include "stdio.h"
 #include "time.h"
 #include "errno.h"
+#include "limits.h"
 
 int main(int argc, char* argv[]) {
 	if (argc < 2) {
